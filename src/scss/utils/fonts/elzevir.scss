@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Elzevir';
+	src: url('/assets/elzevir/elzevir.eot'); /* IE 9 Compatibility Mode */
+	src: url('/assets/elzevir/elzevir.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('/assets/fonts/elzevir/elzevir.woff2') format('woff2'), /* Super Modern Browsers */
+		url('/assets/fonts/elzevir/elzevir.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('/assets/fonts/elzevir/elzevir.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('/assets/fonts/elzevir/elzevir.svg#elzevir') format('svg'); /* Chrome < 4, Legacy iOS */
+}

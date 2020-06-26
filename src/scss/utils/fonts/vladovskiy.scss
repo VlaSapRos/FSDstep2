@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'VLADOVSKIY';
+	src: url('/assets/fonts/vladovskiy/vladovskiy.eot'); /* IE 9 Compatibility Mode */
+	src: url('/assets/fonts/vladovskiy/vladovskiy.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('/assets/fonts/vladovskiy/vladovskiy.woff2') format('woff2'), /* Super Modern Browsers */
+		url('/assets/fonts/vladovskiy/vladovskiy.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('/assets/fonts/vladovskiy/vladovskiy.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('/assets/fonts/vladovskiy/vladovskiy.svg#vladovskiy') format('svg'); /* Chrome < 4, Legacy iOS */
+}

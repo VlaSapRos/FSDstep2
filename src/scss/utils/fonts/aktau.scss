@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Aktau';
+	src: url('/assets/fonts/aktau/aktau.eot'); /* IE 9 Compatibility Mode */
+	src: url('/assets/fonts/aktau/aktau.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('/assets/fonts/aktau/aktau.woff2') format('woff2'), /* Super Modern Browsers */
+		url('/assets/fonts/aktau/aktau.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('/assets/fonts/aktau/aktau.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('/assets/fonts/aktau/aktau.svg#aktau') format('svg'); /* Chrome < 4, Legacy iOS */
+}
