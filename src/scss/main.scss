@@ -29,7 +29,7 @@ body {
   padding: 0;
 }
 
-*, *:before, *:after { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: border-box; margin: 0; padding: 0; }
 
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 
@@ -113,4 +113,10 @@ section, .section {
   font-family: "VLADOVSKIY";
 }
 
-@import "../blocks/label/label.scss"
+@import "../blocks//header/header.scss";
+@import "../blocks//header/header__navigation/header__navigation.scss";
+@import "../blocks//header/header__navigation/header__navigation__li/header__navigation_li.scss";
+@import "../blocks/label/label.scss";
+@import "../blocks/label/label__logo-text/label__logo-text.scss";
+@import "../blocks/label/label__logo-color/label__logo-color.scss";
+@import "../blocks/button/button.scss";
