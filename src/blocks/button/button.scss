@@ -16,11 +16,13 @@
 .button_header-mini {
 	height: 34px;
 	width: 87px;
+	margin: 0px 10px;
 }
 
 .button_header-maxi {
 	height: 34px;
 	width: 196px;
+	margin: 0px 10px;
 }
 
 button:focus {
@@ -69,11 +71,25 @@ button:focus {
 	font-family: 'Material Icons'; 
 	font-weight: normal;
 	font-style: normal;
-	font-size: 22px;
+	font-size: 24px;
 	display: flex;
 	vertical-align: middle;
 	justify-content: center;
 	align-items: center;
+}
+
+.header__dropdown-arrow {
+	width: 24px;
+	height: 21px;
+	font-family: 'Material Icons'; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	display: flex;
+	vertical-align: middle;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 .button__background_white {

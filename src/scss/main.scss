@@ -114,9 +114,10 @@ section, .section {
 }
 
 @import "../blocks//header/header.scss";
-@import "../blocks//header/header__navigation/header__navigation.scss";
-@import "../blocks//header/header__navigation/header__navigation__li/header__navigation_li.scss";
-@import "../blocks//header/header__button-place/header__button-place.scss";
+@import "../blocks//header/header_navig-and-signin/header__navigation/header__navigation.scss";
+@import "../blocks//header/header_navig-and-signin/header__navigation/header__navigation__li/header__navigation_li.scss";
+@import "../blocks//header/header_navig-and-signin/header__sign-in-block/header__sign-in-block.scss";
+@import "../blocks//header/header_navig-and-signin/header_navig-and-signin.scss";
 @import "../blocks/label/label.scss";
 @import "../blocks/label/label__logo-text/label__logo-text.scss";
 @import "../blocks/label/label__logo-color/label__logo-color.scss";
