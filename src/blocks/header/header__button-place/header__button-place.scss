@@ -1,4 +1,7 @@
 .header__button-place {
-  position: absolute;
-  right: 0;
+  width: 300px;
+  display: flex; 
+  margin-left: auto; // Я не знаю как, но эти две строчки  
+  margin-right: 0px; // выравнивают по правому краю блок div
+
 }

@@ -9,6 +9,8 @@
 	border-radius: 22px;
 	line-height: 15px;
 	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	padding: 0px;
+	margin: 0px;
 }
 
 .button_header-mini {
@@ -20,6 +22,7 @@
 	height: 34px;
 	width: 196px;
 }
+
 button:focus {
 	outline: none !important
 }
