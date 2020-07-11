@@ -1,0 +1,32 @@
+.subscribe__input {
+  width: 201px;
+  height: 40px;
+  border: none;
+  padding: 0;
+  margin: 1px 0px 1px 15px;
+  font-family: 'Montserrat_regular';
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.25);
+ }
+
+ 
+.subscribe__input:focus {
+	outline: none !important
+}
+.subscribe__input::-webkit-input-placeholder { 
+  color: rgba(31, 32, 65, 0.25); 
+  font-family: 'Montserrat_regular';
+}
+.subscribe__input::-moz-placeholder { 
+  color: rgba(31, 32, 65, 0.25); 
+  font-family: 'Montserrat_regular';
+}
+.subscribe__input:-ms-input-placeholder { 
+  color: rgba(31, 32, 65, 0.25); 
+  font-family: 'Montserrat_regular';
+}
+.subscribe__input:-moz-placeholder { 
+  color: rgba(31, 32, 65, 0.25); 
+  font-family: 'Montserrat_regular';
+} 

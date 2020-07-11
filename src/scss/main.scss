@@ -40,6 +40,7 @@ a {
 ul, li {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 section, .section {
@@ -113,12 +114,32 @@ section, .section {
   font-family: "VLADOVSKIY";
 }
 
+//header
 @import "../blocks//header/header.scss";
 @import "../blocks//header/header_navig-and-signin/header__navigation/header__navigation.scss";
-@import "../blocks//header/header_navig-and-signin/header__navigation/header__navigation__li/header__navigation_li.scss";
+@import "../blocks//header/header_navig-and-signin/header__navigation/header__li/header__li.scss";
 @import "../blocks//header/header_navig-and-signin/header__sign-in-block/header__sign-in-block.scss";
 @import "../blocks//header/header_navig-and-signin/header_navig-and-signin.scss";
+
+//label
 @import "../blocks/label/label.scss";
 @import "../blocks/label/label__logo-text/label__logo-text.scss";
 @import "../blocks/label/label__logo-color/label__logo-color.scss";
+
+//button
 @import "../blocks/button/button.scss";
+
+//footer
+@import "../blocks/footer/footer.scss";
+@import "../blocks/footer/footer__group/footer__group.scss";
+@import "../blocks/footer/footer__group/footer__text/footer__text.scss";
+@import "../blocks/footer/footer__group/footer__text/footer__text_below.scss";
+@import "../blocks/footer/footer__group/footer__list/footer__list.scss";
+@import "../blocks/footer/footer__group/footer__list/footer__item/footer__item.scss";
+@import "../blocks/footer/footer__group/footer__list/footer__title/footer__title.scss";
+
+//subscribe
+@import "../blocks/subscribe/subscribe.scss";
+@import "../blocks/subscribe/subscribe__input/subscribe__input.scss";
+@import "../blocks/subscribe/subscribe__button/subscribe__button.scss";
+@import "../blocks/subscribe/subscribe__button/subscribe__gradient-arrow/subscribe__gradient-arrow.scss";
