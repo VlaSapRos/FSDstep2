@@ -1,0 +1,18 @@
+.copyright-bar__icon-gradient{
+  line-height: 23px;
+  font-size: 24px;
+  background-clip: text;
+  -webkit-background-clip: text; /* Обрезаем фон по тексту */
+  -webkit-text-fill-color: transparent; /* Прозрачный текст */
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9)); /* Цвет фона */
+  display: initial;
+}
+.copyright-bar__icon-gradient::before{
+  line-height: 23px;
+  font-size: 24px;
+  background-clip: text;
+  -webkit-background-clip: text; /* Обрезаем фон по тексту */
+  -webkit-text-fill-color: transparent; /* Прозрачный текст */
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9)); /* Цвет фона */
+  display: initial;
+}
