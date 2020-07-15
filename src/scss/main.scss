@@ -146,7 +146,16 @@ section, .section {
 
 //copyright-bar
 @import "../blocks/copyright-bar/copyright-bar.scss";
-@import "../blocks/copyright-bar/copyright-bar__text/copyright-bar__text.scss";
-@import "../blocks/copyright-bar/copyright-bar__socials/copyright-bar__socials.scss";
-@import "../blocks/copyright-bar/copyright-bar__socials/copyright-bar__button/copyright-bar__button.scss";
-@import "../blocks/copyright-bar/copyright-bar__socials/copyright-bar__button/copyright-bar__icon/copyright-bar__icon-gradient.scss";
+
+//copyright-text
+@import "../blocks/copyright-text/copyright-text.scss";
+
+//socials
+@import "../blocks/socials/socials.scss";
+@import "../blocks/socials/socials__button/socials__button.scss";
+@import "../blocks/socials/socials__button/socials__icon/socials__icon.scss";
+// @import "../blocks/socials/socials_align-right/socials_align-right.scss";
+
+//footer-creative
+@import "../blocks/footer-creative/footer-creative.scss";
+@import "../blocks/footer-creative/footer-creative__group/footer-creative__group.scss"

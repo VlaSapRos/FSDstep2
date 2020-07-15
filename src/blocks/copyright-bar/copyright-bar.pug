@@ -1,9 +1,4 @@
 div(class="copyright-bar")
-  pre(class="copyright-bar__text") Copyright © 2018 Toxin отель. Все права зачищены.
-  div(class="copyright-bar__socials")
-    button(class="copyright-bar__button") 
-      <i class="fab fa-twitter copyright-bar__icon-gradient"></i>
-    button(class="copyright-bar__button")
-      <i class="fab fa-facebook-square copyright-bar__icon-gradient"></i>
-    button(class="copyright-bar__button")
-      <i class="fab fa-instagram copyright-bar__icon-gradient"></i>
+  include ../copyright-text/copyright-text.pug
+  div(class='socials')
+    include ../socials/socials.pug

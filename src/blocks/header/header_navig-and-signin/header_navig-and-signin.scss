@@ -1,9 +1,13 @@
 .header_navig-and-signin {
-  display: flex; // Когда будем делать адаптивность можно попробовать элементам header_navig-and-signin, header__sign-in-block, header__navigation в scss добавить строки
-  // display: flex;
-  // justify-content: space-between; (задает одинаковое расстояние между квадратами, но не между контейнером и квадратами.)
+  display: flex;
+  justify-content: space-between;
+  width: 770px;
+  height: 34px;
   // и рассчитать длину блоков так чтобы при длине header width: 1440px; интервалы между элементами были 20px. 
   // Это заставит интервалы изменяться при изменении ширины окна (точнее header).
   margin-left: auto; // Я не знаю как, но эти две строчки  
   margin-right: 0px; // выравнивают по правому краю блок div
-}
+  align-items: center;
+  vertical-align: center;
+
+} 
