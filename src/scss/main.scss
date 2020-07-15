@@ -116,10 +116,13 @@ section, .section {
 
 //header
 @import "../blocks//header/header.scss";
+@import "../blocks//header/header_navig-and-signin/header_navig-and-signin.scss";
 @import "../blocks//header/header_navig-and-signin/header__navigation/header__navigation.scss";
 @import "../blocks//header/header_navig-and-signin/header__navigation/header__li/header__li.scss";
+@import "../blocks/header/header_navig-and-signin/header__navigation/header__li/header__dropdown-arrow/header__dropdown-arrow.scss";
+@import "../blocks//header/header_navig-and-signin/header__navigation/header__li/header__li_align-self-stretch/header__li_align-self-end.scss";
+@import "../blocks//header/header_navig-and-signin/header__navigation/header__li/header__li_bold-text/header__li_bold-text.scss";
 @import "../blocks//header/header_navig-and-signin/header__sign-in-block/header__sign-in-block.scss";
-@import "../blocks//header/header_navig-and-signin/header_navig-and-signin.scss";
 
 //label
 @import "../blocks/label/label.scss";
@@ -158,4 +161,4 @@ section, .section {
 
 //footer-creative
 @import "../blocks/footer-creative/footer-creative.scss";
-@import "../blocks/footer-creative/footer-creative__group/footer-creative__group.scss"
+@import "../blocks/footer-creative/footer-creative__group/footer-creative__group.scss";
